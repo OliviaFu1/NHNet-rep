@@ -26,7 +26,8 @@ from __future__ import print_function
 
 import functools
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.legacy.detection.modeling.architecture import nn_ops
 from official.legacy.detection.ops import spatial_transform_ops

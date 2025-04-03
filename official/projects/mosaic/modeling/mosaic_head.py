@@ -15,7 +15,8 @@
 """Contains definitions of segmentation head of the MOSAIC model."""
 from typing import Any, Dict, List, Mapping, Optional, Tuple, Union
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.modeling import tf_utils
 from official.projects.mosaic.modeling import mosaic_blocks

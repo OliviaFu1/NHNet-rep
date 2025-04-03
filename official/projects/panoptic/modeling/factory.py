@@ -15,7 +15,8 @@
 """Factory method to build panoptic segmentation model."""
 from typing import Optional
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.projects.deepmac_maskrcnn.tasks import deep_mask_head_rcnn
 from official.projects.panoptic.configs import panoptic_deeplab as panoptic_deeplab_cfg

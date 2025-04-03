@@ -16,7 +16,8 @@
 from typing import Any, List, Optional, Mapping
 
 from absl import logging
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.core import task_factory
 from official.projects.videoglue.configs import spatiotemporal_action_localization as exp_cfg

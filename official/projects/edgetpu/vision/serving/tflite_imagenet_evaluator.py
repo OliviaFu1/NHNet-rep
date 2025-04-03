@@ -19,7 +19,8 @@ import multiprocessing.pool as mp
 from typing import Tuple
 from absl import logging
 import numpy as np
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 # pylint: disable=g-direct-tensorflow-import
 from tensorflow.lite.python import interpreter as tfl_interpreter

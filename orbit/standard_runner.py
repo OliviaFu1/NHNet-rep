@@ -42,7 +42,8 @@ import dataclasses
 from orbit import runner
 from orbit.utils import loop_fns
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 
 @dataclasses.dataclass(frozen=True)

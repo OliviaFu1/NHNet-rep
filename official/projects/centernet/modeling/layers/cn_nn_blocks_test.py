@@ -19,7 +19,8 @@ It is a literal translation of the PyTorch implementation.
 
 from absl.testing import parameterized
 import numpy as np
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.projects.centernet.modeling.layers import cn_nn_blocks
 from official.vision.modeling.layers import nn_blocks

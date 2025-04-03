@@ -15,7 +15,8 @@
 """Tests for masked language model network."""
 from absl.testing import parameterized
 import numpy as np
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.nlp.modeling.layers import masked_lm
 from official.nlp.modeling.networks import bert_encoder

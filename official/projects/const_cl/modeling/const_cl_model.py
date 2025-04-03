@@ -15,7 +15,8 @@
 """Builds ConST-CL SSL models."""
 from typing import Mapping, Optional
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.projects.const_cl.configs import const_cl as const_cl_cfg
 from official.projects.const_cl.modeling.heads import instance_reconstructor

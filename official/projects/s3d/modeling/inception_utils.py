@@ -15,7 +15,8 @@
 """Contains modules related to Inception networks."""
 from typing import Callable, Dict, Optional, Sequence, Set, Text, Tuple, Type, Union
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.modeling import tf_utils
 from official.projects.s3d.modeling import net_utils

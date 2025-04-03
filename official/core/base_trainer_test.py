@@ -22,7 +22,8 @@ import sys
 from absl.testing import parameterized
 import orbit
 import portpicker
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from tensorflow.python.distribute import combinations
 from tensorflow.python.distribute import strategy_combinations

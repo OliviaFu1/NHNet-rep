@@ -14,7 +14,8 @@
 
 """Transformer decoder that mimics a BERT encoder, to load BERT checkpoints."""
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.legacy.transformer import model_utils as transformer_utils
 from official.modeling import tf_utils

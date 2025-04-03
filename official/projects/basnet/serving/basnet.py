@@ -14,7 +14,8 @@
 
 """Export module for BASNet."""
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.projects.basnet.tasks import basnet
 from official.vision.serving import semantic_segmentation

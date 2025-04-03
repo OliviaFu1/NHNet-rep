@@ -13,7 +13,8 @@
 # limitations under the License.
 
 """MobileBERT embedding and transformer layers."""
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 import tensorflow_model_optimization as tfmot
 from official.nlp import modeling

@@ -14,7 +14,8 @@
 
 """Tests for mat_mul_with_margin layer."""
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.nlp.modeling.layers import mat_mul_with_margin
 

@@ -19,7 +19,8 @@ import re
 from typing import Any, Callable, Dict, Optional, Text
 
 from absl import logging
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.legacy.bert import model_training_utils
 from official.legacy.xlnet import data_utils

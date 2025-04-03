@@ -15,7 +15,8 @@
 """Postprocessing layer to generate panoptic segmentations."""
 
 from typing import Any, Dict, List, Mapping, Optional
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 from official.modeling import activations
 from official.vision.ops import spatial_transform_ops
 

@@ -13,7 +13,8 @@
 # limitations under the License.
 
 """The encoder used for FFFNER."""
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.modeling import tf_utils
 from official.modeling.hyperparams import base_config

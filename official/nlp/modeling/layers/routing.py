@@ -18,7 +18,8 @@ For MoE routing, we need to separate a set of tokens to sets of tokens.
 Later on, different sets of tokens can potentially go to different experts.
 """
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 
 @tf_keras.utils.register_keras_serializable(package="Text")

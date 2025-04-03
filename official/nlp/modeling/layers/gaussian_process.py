@@ -14,8 +14,8 @@
 
 """Definitions for random feature Gaussian process layer."""
 import math
-import tensorflow as tf, tf_keras
-
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 _SUPPORTED_LIKELIHOOD = ('binary_logistic', 'poisson', 'gaussian')
 

@@ -17,7 +17,8 @@
 from typing import Any, Callable, Dict, List, Mapping, Optional, Tuple, Union
 
 from absl import logging
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.modeling import tf_utils
 from official.vision.ops import spatial_transform_ops

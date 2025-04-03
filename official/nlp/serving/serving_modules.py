@@ -17,7 +17,8 @@
 import dataclasses
 from typing import Dict, List, Optional, Text
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 import tensorflow_text as tf_text
 
 from official.core import export_base

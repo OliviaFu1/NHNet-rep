@@ -18,7 +18,8 @@ import os
 
 from absl import flags
 from absl.testing import parameterized
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.vision.data import create_coco_tf_record as create_coco_tf_record_lib
 from official.vision.data import tfrecord_lib

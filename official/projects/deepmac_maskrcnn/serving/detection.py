@@ -16,7 +16,8 @@
 
 from typing import Dict, Mapping, Text
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.projects.deepmac_maskrcnn.configs import deep_mask_head_rcnn as cfg
 from official.projects.deepmac_maskrcnn.modeling import maskrcnn_model

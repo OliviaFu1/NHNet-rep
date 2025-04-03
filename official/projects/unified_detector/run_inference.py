@@ -25,7 +25,8 @@ from absl import logging
 import cv2
 import gin
 import numpy as np
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 import tqdm
 
 from official.projects.unified_detector import external_configurables  # pylint: disable=unused-import

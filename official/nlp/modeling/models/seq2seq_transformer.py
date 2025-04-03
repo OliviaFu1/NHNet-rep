@@ -19,7 +19,8 @@ Model paper: https://arxiv.org/pdf/1706.03762.pdf
 import inspect
 import math
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.modeling import tf_utils
 from official.nlp.modeling import layers

@@ -22,7 +22,8 @@ import tempfile
 from typing import Optional, Text, Tuple
 
 from absl import logging
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 # pylint: disable=g-direct-tensorflow-import  TODO(b/175369555): Remove these.
 from tensorflow.core.protobuf import saved_model_pb2
 from tensorflow.python.ops import control_flow_assert

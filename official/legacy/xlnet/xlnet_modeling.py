@@ -17,7 +17,8 @@
 import copy
 import warnings
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 from official.legacy.xlnet import data_utils
 from official.nlp.modeling import networks
 

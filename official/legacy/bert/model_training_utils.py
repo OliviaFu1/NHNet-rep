@@ -19,7 +19,8 @@ import os
 import tempfile
 
 from absl import logging
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 from tensorflow.python.util import deprecation
 from official.common import distribute_utils
 from official.modeling import grad_utils

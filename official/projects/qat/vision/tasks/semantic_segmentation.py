@@ -13,7 +13,8 @@
 # limitations under the License.
 
 """Semantic segmentation task definition."""
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.core import task_factory
 from official.projects.qat.vision.configs import semantic_segmentation as exp_cfg

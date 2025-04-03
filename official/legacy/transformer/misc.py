@@ -17,7 +17,8 @@
 # pylint: disable=g-bad-import-order
 
 from absl import flags
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.legacy.transformer import model_params
 from official.utils.flags import core as flags_core

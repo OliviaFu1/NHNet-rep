@@ -14,7 +14,8 @@
 
 """Mask R-CNN variant with support for deep mask heads."""
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.core import task_factory
 from official.projects.deepmac_maskrcnn.configs import deep_mask_head_rcnn as deep_mask_head_rcnn_config

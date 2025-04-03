@@ -18,7 +18,7 @@ import os
 
 from absl import app
 from absl import flags
-from official.projects.nhnet import raw_data_processor
+import raw_data_processor
 
 FLAGS = flags.FLAGS
 

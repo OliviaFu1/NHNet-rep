@@ -13,7 +13,8 @@
 # limitations under the License.
 
 """Classification decoder and parser."""
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.vision.dataloaders import classification_input
 from official.vision.ops import preprocess_ops

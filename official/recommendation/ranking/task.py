@@ -17,7 +17,8 @@
 import math
 from typing import Dict, List, Optional, Union, Tuple
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 import tensorflow_recommenders as tfrs
 
 from official.core import base_task

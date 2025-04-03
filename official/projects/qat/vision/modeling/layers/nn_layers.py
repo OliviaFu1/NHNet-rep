@@ -17,7 +17,8 @@
 import enum
 from typing import Any, Callable, Dict, List, Mapping, Optional, Sequence, Tuple, Union
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 import tensorflow_model_optimization as tfmot
 from official.modeling import tf_utils

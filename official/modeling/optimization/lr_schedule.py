@@ -17,7 +17,8 @@
 import math
 from typing import Mapping, Any, Union, Optional
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 
 def _make_offset_wrapper(new_class_name: str, base_lr_class):

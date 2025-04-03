@@ -20,7 +20,8 @@ import dataclasses
 import enum
 from typing import Any
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 
 @enum.unique

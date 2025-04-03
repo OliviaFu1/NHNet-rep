@@ -31,7 +31,8 @@ when number of examples set to True in indicator is less than batch_size.
 This is originally implemented in TensorFlow Object Detection API.
 """
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 
 def combined_static_and_dynamic_shape(tensor):

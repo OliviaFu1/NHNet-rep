@@ -15,7 +15,8 @@
 """Task definition for image semantic segmentation with MOSAIC models."""
 
 from absl import logging
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.core import task_factory
 from official.projects.mosaic.configs import mosaic_config

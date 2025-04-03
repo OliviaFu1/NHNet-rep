@@ -20,7 +20,8 @@ from typing import Optional
 
 from absl import logging
 import numpy as np
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 
 def activation_fn(features: tf.Tensor, act_fn: str):

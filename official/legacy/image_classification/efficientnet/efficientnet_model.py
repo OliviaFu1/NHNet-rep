@@ -27,7 +27,8 @@ import math
 from typing import Any, Dict, Optional, Text, Tuple
 
 from absl import logging
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 from official.legacy.image_classification import preprocessing
 from official.legacy.image_classification.efficientnet import common_modules
 from official.modeling import tf_utils

@@ -14,7 +14,8 @@
 
 """Losses used for detection models."""
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 
 class FocalLoss(tf_keras.losses.Loss):

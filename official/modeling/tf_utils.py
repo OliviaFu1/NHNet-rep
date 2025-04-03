@@ -17,7 +17,8 @@
 import functools
 import inspect
 import six
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from tensorflow.python.util import deprecation
 from official.modeling import activations

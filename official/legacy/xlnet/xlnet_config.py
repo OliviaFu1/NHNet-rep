@@ -17,7 +17,8 @@
 import json
 import os
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 
 def create_run_config(is_training, is_finetune, flags):

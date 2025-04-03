@@ -22,7 +22,8 @@ import copy
 import os
 
 from absl.testing import parameterized
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.legacy.image_classification import classifier_trainer
 from official.legacy.image_classification import dataset_factory

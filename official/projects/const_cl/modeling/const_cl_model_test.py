@@ -13,7 +13,8 @@
 # limitations under the License.
 
 """Tests for const_cl_model."""
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.projects.const_cl.configs import const_cl as const_cl_cfg
 from official.projects.const_cl.modeling import const_cl_model

@@ -18,7 +18,8 @@ import collections
 import math
 from typing import Dict, Optional, Tuple
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.vision.ops import box_matcher
 from official.vision.ops import iou_similarity

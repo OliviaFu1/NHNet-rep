@@ -19,7 +19,8 @@ import os
 from orbit import actions
 from orbit.actions import export_saved_model
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 
 def _id_key(name):

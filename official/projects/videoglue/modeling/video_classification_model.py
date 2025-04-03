@@ -15,7 +15,8 @@
 """Builds video classification models."""
 from typing import Any, Mapping, Optional, Union, List, Text
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.projects.videoglue.configs import video_classification as cfg
 from official.projects.videoglue.modeling.backbones import vit_3d  # pylint: disable=unused-import

@@ -36,7 +36,8 @@ from __future__ import print_function
 import sys
 
 from six.moves import xrange  # pylint: disable=redefined-builtin
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 from tensorflow import estimator as tf_estimator
 from typing import Any, Dict, Text
 

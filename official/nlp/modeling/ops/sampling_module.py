@@ -18,7 +18,8 @@ import abc
 from typing import Any, Callable, Dict, Optional
 
 import numpy as np
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.nlp.modeling.ops import decoding_module
 

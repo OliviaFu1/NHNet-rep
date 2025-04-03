@@ -14,7 +14,8 @@
 
 """Maskconver input and model functions for serving/inference."""
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.projects.maskconver.modeling import factory
 from official.vision.ops import preprocess_ops

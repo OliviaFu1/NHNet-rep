@@ -14,7 +14,8 @@
 
 """Tests for factory functions."""
 from absl.testing import parameterized
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from tensorflow.python.distribute import combinations
 from official.vision.configs import backbones as backbones_cfg

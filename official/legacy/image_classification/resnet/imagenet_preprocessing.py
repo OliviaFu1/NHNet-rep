@@ -38,7 +38,8 @@ from __future__ import print_function
 import os
 
 from absl import logging
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 DEFAULT_IMAGE_SIZE = 224
 NUM_CHANNELS = 3

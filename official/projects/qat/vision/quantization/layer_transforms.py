@@ -15,7 +15,8 @@
 """Contains custom quantization layer transforms."""
 from typing import Any, Type, Mapping, List, Union, Tuple
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 import tensorflow_model_optimization as tfmot
 from official.modeling import tf_utils
 from official.projects.qat.vision.modeling.layers import nn_blocks as quantized_nn_blocks

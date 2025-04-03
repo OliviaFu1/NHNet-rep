@@ -18,7 +18,8 @@ import os
 
 from absl import app
 import numpy as np
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 import transformers
 
 from official.modeling import tf_utils

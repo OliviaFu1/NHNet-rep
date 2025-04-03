@@ -24,7 +24,8 @@ channels], to make this run on TPU.
 """
 
 import numpy as np
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 layers = tf_keras.layers
 BATCH_NORM_DECAY = 0.99

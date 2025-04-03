@@ -23,7 +23,8 @@ with minor changes.
 import functools
 from typing import Dict, List, Text, Tuple
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.projects.panoptic.ops import mask_ops
 

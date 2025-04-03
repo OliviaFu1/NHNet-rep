@@ -17,7 +17,8 @@
 import os
 
 from absl import flags
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.projects.movinet.modeling import movinet
 from official.projects.movinet.modeling import movinet_model

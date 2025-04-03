@@ -15,7 +15,8 @@
 """Metrics for segmentation."""
 from typing import Optional
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 from official.projects.volumetric_models.losses import segmentation_losses
 
 

@@ -17,7 +17,8 @@ import orbit
 from orbit.examples.single_task import single_task_evaluator
 from orbit.examples.single_task import single_task_trainer
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 import tensorflow_datasets as tfds
 
 

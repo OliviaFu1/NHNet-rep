@@ -20,7 +20,8 @@ from absl import app
 from absl import flags
 from absl import logging
 from six.moves import zip
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.common import distribute_utils
 from official.legacy.transformer import metrics as transformer_metrics

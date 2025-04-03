@@ -20,7 +20,8 @@ import time
 from typing import Any, Callable, Dict, Mapping, List, Optional, Text, Union
 
 from absl import logging
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 MAX_DIRECTORY_CREATION_ATTEMPTS = 10
 

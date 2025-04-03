@@ -19,7 +19,8 @@ from __future__ import annotations
 import copy
 from typing import Any, Dict, List, Optional, Type, Union
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 import tensorflow_model_optimization as tfmot
 from official.projects.qat.vision.quantization import configs

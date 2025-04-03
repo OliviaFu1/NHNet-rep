@@ -18,7 +18,8 @@ Model paper: https://arxiv.org/pdf/1706.03762.pdf
 Transformer model code source: https://github.com/tensorflow/tensor2tensor
 """
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.legacy.transformer import attention_layer
 from official.legacy.transformer import embedding_layer

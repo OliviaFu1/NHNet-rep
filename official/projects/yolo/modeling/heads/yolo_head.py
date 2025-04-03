@@ -14,7 +14,8 @@
 
 """Yolo heads."""
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 from official.projects.yolo.modeling.layers import nn_blocks
 
 

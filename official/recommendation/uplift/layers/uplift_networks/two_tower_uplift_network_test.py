@@ -15,7 +15,8 @@
 """Tests for two_tower_uplift_network."""
 
 from absl.testing import parameterized
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 from official.recommendation.uplift import keras_test_case
 from official.recommendation.uplift.layers.uplift_networks import two_tower_uplift_network
 

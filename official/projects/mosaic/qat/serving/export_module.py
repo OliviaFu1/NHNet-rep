@@ -14,7 +14,8 @@
 
 """Export modules for QAT model serving/inference."""
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.projects.mosaic.modeling import mosaic_model
 from official.projects.mosaic.qat.modeling import factory as qat_factory

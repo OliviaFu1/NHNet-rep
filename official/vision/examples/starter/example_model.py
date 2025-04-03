@@ -20,7 +20,8 @@ directly used from `official/vision/modeling` directory.
 """
 
 from typing import Any, Mapping
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 from official.vision.examples.starter import example_config as example_cfg
 
 

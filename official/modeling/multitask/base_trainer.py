@@ -20,7 +20,8 @@ from typing import Union
 
 import gin
 import orbit
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.modeling import optimization
 from official.modeling.multitask import base_model

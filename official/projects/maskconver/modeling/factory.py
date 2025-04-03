@@ -15,7 +15,8 @@
 """Factory method to build panoptic segmentation model."""
 from typing import Optional, Union
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.projects.maskconver.configs import maskconver as maskconver_cfg
 from official.projects.maskconver.configs import multiscale_maskconver as multiscale_maskconver_cfg

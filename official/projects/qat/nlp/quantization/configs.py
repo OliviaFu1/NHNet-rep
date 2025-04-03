@@ -15,7 +15,8 @@
 """Custom quantize configs."""
 from typing import Sequence, Callable, Tuple, Any, Dict
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 import tensorflow_model_optimization as tfmot
 
 

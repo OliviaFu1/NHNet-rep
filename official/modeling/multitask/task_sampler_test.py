@@ -13,7 +13,8 @@
 # limitations under the License.
 
 """Tests for multitask.task_sampler."""
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.modeling.multitask import configs
 from official.modeling.multitask import task_sampler as sampler

@@ -16,7 +16,8 @@
 
 from typing import Mapping, Optional
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.vision.configs import image_classification as classification_cfg
 from official.vision.configs import maskrcnn as maskrcnn_cfg

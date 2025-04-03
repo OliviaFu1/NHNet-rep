@@ -16,7 +16,8 @@
 
 from typing import List, Mapping, Optional, Union
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.projects.deepmac_maskrcnn.modeling import maskrcnn_model
 

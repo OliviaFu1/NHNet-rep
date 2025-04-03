@@ -14,7 +14,8 @@
 
 """Masked language model network."""
 # pylint: disable=g-classes-have-attributes
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 
 @tf_keras.utils.register_keras_serializable(package='Text')

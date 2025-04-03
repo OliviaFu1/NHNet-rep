@@ -13,7 +13,8 @@
 # limitations under the License.
 
 """Contains common building blocks for 3D networks."""
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.vision.modeling.layers import nn_blocks_3d
 from official.vision.modeling.layers import nn_layers

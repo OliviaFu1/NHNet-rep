@@ -21,7 +21,8 @@ from typing import Any, Mapping, Optional, Text, Tuple
 from absl import app
 from absl import flags
 from absl import logging
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 from official.common import distribute_utils
 from official.legacy.image_classification import callbacks as custom_callbacks
 from official.legacy.image_classification import dataset_factory

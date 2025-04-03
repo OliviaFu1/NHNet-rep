@@ -32,7 +32,8 @@
 """
 
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 BATCH_NORM_EPSILON = 1e-5
 BATCH_NORM_MOMENTUM = 0.1

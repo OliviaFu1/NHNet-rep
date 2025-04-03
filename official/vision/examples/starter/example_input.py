@@ -19,7 +19,8 @@ loading standard tf.Example data but non-standard tf.Example or other data
 format can be supported by implementing proper decoder and parser.
 """
 from typing import Mapping, List, Tuple
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.vision.dataloaders import decoder
 from official.vision.dataloaders import parser

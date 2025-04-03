@@ -15,7 +15,8 @@
 """Builds the Video Action Transformer Network."""
 from typing import Mapping, Optional, Tuple
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.projects.videoglue.configs import spatiotemporal_action_localization as cfg
 from official.projects.videoglue.modeling.backbones import vit_3d  # pylint: disable=unused-import

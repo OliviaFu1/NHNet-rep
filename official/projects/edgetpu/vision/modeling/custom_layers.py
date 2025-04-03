@@ -17,7 +17,8 @@
 from collections.abc import MutableMapping
 import inspect
 from typing import Any, Optional, Union
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.modeling import tf_utils
 

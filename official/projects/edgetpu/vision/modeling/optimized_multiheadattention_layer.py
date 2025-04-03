@@ -23,7 +23,8 @@ import string
 from typing import Optional, Tuple
 
 import numpy as np
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 _CHR_IDX = string.ascii_lowercase
 

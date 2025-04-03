@@ -16,7 +16,8 @@
 from typing import Dict, Text
 
 from absl import logging
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.modeling.multitask import base_model
 from official.projects.simclr.configs import multitask_config as simclr_multitask_config

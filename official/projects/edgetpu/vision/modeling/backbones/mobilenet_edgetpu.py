@@ -15,7 +15,8 @@
 """Contains definitions of mobilenet_edgetpu_v2 Networks."""
 
 from absl import logging
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.modeling import hyperparams
 from official.projects.edgetpu.vision.modeling.mobilenet_edgetpu_v1_model import MobilenetEdgeTPU

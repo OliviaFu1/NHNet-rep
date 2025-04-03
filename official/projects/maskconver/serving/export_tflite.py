@@ -35,7 +35,8 @@ export_tflite --experiment=${EXPERIMENT_TYPE} \
 from absl import app
 from absl import flags
 from absl import logging
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.core import exp_factory
 from official.modeling import hyperparams

@@ -15,7 +15,8 @@
 """Video ssl linear evaluation task definition."""
 from typing import Any, Optional, List, Tuple
 from absl import logging
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 # pylint: disable=unused-import
 from official.core import task_factory

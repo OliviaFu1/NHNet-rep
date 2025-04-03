@@ -22,7 +22,8 @@ from absl import app
 from absl import flags
 from absl import logging
 import numpy as np
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 import sentencepiece as spm
 from official.legacy.xlnet import classifier_utils

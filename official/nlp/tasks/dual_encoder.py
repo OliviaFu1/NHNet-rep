@@ -16,7 +16,8 @@
 from typing import Mapping, Tuple
 from absl import logging
 import dataclasses
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.core import base_task
 from official.core import config_definitions as cfg

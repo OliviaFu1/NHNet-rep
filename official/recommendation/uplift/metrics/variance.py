@@ -15,7 +15,8 @@
 """Keras metric for computing the (weighted) variance of a tensor."""
 
 from typing import Optional
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 
 class Variance(tf_keras.metrics.Metric):

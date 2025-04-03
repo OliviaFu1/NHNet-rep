@@ -20,7 +20,8 @@ import os
 
 from absl import flags
 from absl import logging
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 from official.legacy.bert import bert_models
 from official.legacy.bert import common_flags
 from official.legacy.bert import input_pipeline

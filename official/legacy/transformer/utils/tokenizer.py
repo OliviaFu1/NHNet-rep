@@ -28,7 +28,8 @@ from absl import logging
 import numpy as np
 import six
 from six.moves import xrange  # pylint: disable=redefined-builtin
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 # pylint: disable=g-complex-comprehension
 PAD = "<pad>"

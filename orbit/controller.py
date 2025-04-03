@@ -24,7 +24,8 @@ from absl import logging
 from orbit import runner
 from orbit import utils
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 # pylint: disable=g-direct-tensorflow-import
 from tensorflow.python.eager import monitoring

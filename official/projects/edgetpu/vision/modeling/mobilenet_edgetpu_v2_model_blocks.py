@@ -17,7 +17,8 @@ import dataclasses
 import math
 from typing import Any, Dict, List, Optional, Tuple, Union
 from absl import logging
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.modeling import tf_utils
 from official.modeling.hyperparams import base_config

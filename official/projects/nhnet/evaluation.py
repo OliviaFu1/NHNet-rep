@@ -18,7 +18,8 @@ import os
 
 from absl import logging
 import numpy as np
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.legacy.transformer import metrics as metrics_v2
 from official.legacy.transformer.utils import metrics

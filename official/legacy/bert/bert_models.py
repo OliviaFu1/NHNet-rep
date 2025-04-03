@@ -15,7 +15,8 @@
 """BERT models that are compatible with TF 2.0."""
 
 import gin
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 import tensorflow_hub as hub
 from official.legacy.albert import configs as albert_configs
 from official.legacy.bert import configs

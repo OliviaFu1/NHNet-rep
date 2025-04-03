@@ -15,7 +15,8 @@
 """Functions used to convert a TF checkpoint into a dictionary."""
 
 import numpy as np
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 
 def update_weights_dict(weights_dict, variable_key, value):

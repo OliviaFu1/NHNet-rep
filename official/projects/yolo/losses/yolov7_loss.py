@@ -14,7 +14,8 @@
 
 """YOLOv7 loss function."""
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.projects.yolo.ops import box_ops
 from official.vision.losses import focal_loss

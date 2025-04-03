@@ -14,7 +14,8 @@
 
 """Tests for span_labeling network."""
 import numpy as np
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.nlp.modeling.networks import span_labeling
 

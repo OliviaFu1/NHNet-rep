@@ -15,7 +15,8 @@
 """Yolo loss utility functions."""
 
 import numpy as np
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.projects.yolo.ops import box_ops
 from official.projects.yolo.ops import math_ops

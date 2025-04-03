@@ -15,7 +15,8 @@
 """Data parser and processing for Panoptic MaskConver."""
 from typing import Optional
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.projects.centernet.ops import target_assigner
 from official.vision.configs import common

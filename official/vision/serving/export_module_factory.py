@@ -16,7 +16,8 @@
 
 from typing import List, Optional
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.core import config_definitions as cfg
 from official.vision import configs

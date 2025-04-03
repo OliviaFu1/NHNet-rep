@@ -21,7 +21,8 @@ into (image, labels) tuple for RetinaNet.
 from typing import Optional
 
 from absl import logging
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.vision.configs import common as cfg
 from official.vision.dataloaders import parser

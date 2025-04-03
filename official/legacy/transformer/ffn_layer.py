@@ -14,7 +14,8 @@
 
 """Implementation of fully connected network."""
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 
 class FeedForwardNetwork(tf_keras.layers.Layer):

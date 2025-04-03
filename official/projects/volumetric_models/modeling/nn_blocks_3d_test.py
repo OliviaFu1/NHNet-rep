@@ -15,7 +15,8 @@
 """Tests for 3D volumeric convoluion blocks."""
 
 from absl.testing import parameterized
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.projects.volumetric_models.modeling import nn_blocks_3d
 

@@ -19,7 +19,8 @@ https://arxiv.org/abs/1712.04851.
 """
 from typing import Any, Dict, Mapping, Optional, Sequence, Text, Tuple, Union
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.modeling import hyperparams
 from official.projects.s3d.configs import s3d as cfg

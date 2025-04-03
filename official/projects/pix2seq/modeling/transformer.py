@@ -18,7 +18,8 @@ the position embeddings are added to the query and key for every self- and
 cross-attention layer.
 """
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 
 class TransformerEncoder(tf_keras.layers.Layer):

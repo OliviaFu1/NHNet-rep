@@ -20,7 +20,8 @@ from __future__ import print_function
 from typing import Any, Mapping, Optional
 
 import numpy as np
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 BASE_LEARNING_RATE = 0.1
 

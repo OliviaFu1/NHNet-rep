@@ -15,7 +15,8 @@
 """Tests for teams_task."""
 
 from absl.testing import parameterized
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.nlp.configs import encoders
 from official.nlp.data import pretrain_dataloader

@@ -37,7 +37,8 @@ Darknets are used mainly for object detection in:
 
 import collections
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.modeling import hyperparams
 from official.projects.yolo.modeling.layers import nn_blocks

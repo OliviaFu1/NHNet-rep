@@ -17,7 +17,8 @@
 import abc
 from typing import Dict, List, Mapping, Optional, Text
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.core import config_definitions as cfg
 from official.core import export_base

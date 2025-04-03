@@ -15,7 +15,8 @@
 """HS Video Classification task."""
 from typing import Any, List, Optional, Mapping
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.core import task_factory
 from official.projects.videoglue.configs import video_classification as exp_cfg

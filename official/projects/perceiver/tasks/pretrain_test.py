@@ -14,7 +14,8 @@
 
 """Tests for official.nlp.tasks.masked_lm."""
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 import tensorflow_datasets as tfds
 
 from official.nlp.data import pretrain_dataloader

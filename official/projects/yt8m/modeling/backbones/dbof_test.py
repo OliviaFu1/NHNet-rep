@@ -15,7 +15,8 @@
 """Tests for dbof."""
 
 from absl.testing import parameterized
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.projects.yt8m.configs import yt8m as yt8m_cfg
 from official.projects.yt8m.modeling.backbones import dbof

@@ -14,7 +14,8 @@
 
 """Multi scale anchor generator definition."""
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 
 # (TODO/tanzheny): consider having customized anchor offset.

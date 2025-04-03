@@ -15,7 +15,8 @@
 """Test for centernet detection model."""
 
 from absl.testing import parameterized
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.projects.centernet.configs import backbones
 from official.projects.centernet.modeling import centernet_model

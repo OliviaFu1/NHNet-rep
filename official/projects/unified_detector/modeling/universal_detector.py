@@ -17,7 +17,8 @@
 from typing import Any, Dict, Optional, Sequence, Tuple, Union
 
 import gin
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from deeplab2 import config_pb2
 from deeplab2.model.decoder import max_deeplab as max_deeplab_head

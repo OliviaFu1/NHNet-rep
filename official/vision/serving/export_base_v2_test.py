@@ -15,7 +15,8 @@
 """Tests for official.core.export_base_v2."""
 import os
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.core import export_base
 from official.vision.serving import export_base_v2

@@ -20,7 +20,8 @@ from __future__ import print_function
 
 from absl import logging
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 from official.legacy.detection.executor import distributed_executor as executor
 from official.vision.utils.object_detection import visualization_utils
 

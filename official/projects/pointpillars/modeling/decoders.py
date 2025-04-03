@@ -16,7 +16,8 @@
 
 from typing import Any, Mapping, Optional
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.projects.pointpillars.modeling import layers
 from official.projects.pointpillars.utils import utils

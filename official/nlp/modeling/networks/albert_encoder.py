@@ -15,7 +15,8 @@
 """ALBERT (https://arxiv.org/abs/1810.04805) text encoder network."""
 # pylint: disable=g-classes-have-attributes
 import collections
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.modeling import activations
 from official.modeling import tf_utils

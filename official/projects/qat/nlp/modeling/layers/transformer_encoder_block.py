@@ -16,7 +16,8 @@
 from typing import Optional
 
 from absl import logging
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 import tensorflow_model_optimization as tfmot
 from official.projects.qat.nlp.modeling.layers.multi_head_attention import MultiHeadAttentionQuantized

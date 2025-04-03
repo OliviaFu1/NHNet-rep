@@ -15,7 +15,8 @@
 """Tests for yolo heads."""
 
 from absl.testing import parameterized
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.projects.yolo.modeling.heads import yolo_head as heads
 

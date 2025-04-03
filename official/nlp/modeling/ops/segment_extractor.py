@@ -14,7 +14,8 @@
 
 """Module for extracting segments from sentences in documents."""
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 
 # Get a random tensor like `positions` and make some decisions

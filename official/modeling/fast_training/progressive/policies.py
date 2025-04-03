@@ -23,7 +23,8 @@ import dataclasses
 from typing import Any, Mapping
 from absl import logging
 import six
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.common import streamz_counters
 from official.modeling.fast_training.progressive import utils

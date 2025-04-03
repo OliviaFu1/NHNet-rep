@@ -21,7 +21,8 @@ BERT"](https://arxiv.org/abs/2205.12399).
 
 from typing import Any, Callable, Optional, Sequence, Union
 from absl import logging
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.modeling import tf_utils
 from official.nlp.modeling import layers

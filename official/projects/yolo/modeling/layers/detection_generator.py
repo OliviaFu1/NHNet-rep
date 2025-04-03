@@ -14,7 +14,8 @@
 
 """Contains common building blocks for yolo layer (detection layer)."""
 from typing import Optional
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.projects.yolo.losses import yolo_loss
 from official.projects.yolo.ops import box_ops

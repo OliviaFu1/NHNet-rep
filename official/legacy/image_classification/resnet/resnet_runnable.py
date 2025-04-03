@@ -15,7 +15,8 @@
 """Runs a ResNet model on the ImageNet dataset using custom training loops."""
 
 import orbit
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 from official.legacy.image_classification.resnet import common
 from official.legacy.image_classification.resnet import imagenet_preprocessing
 from official.legacy.image_classification.resnet import resnet_model

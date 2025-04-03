@@ -15,7 +15,8 @@
 """Builds the overall MOSAIC segmentation models."""
 from typing import Any, Dict, Optional, Union
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.projects.mosaic.configs import mosaic_config
 from official.projects.mosaic.modeling import mosaic_blocks

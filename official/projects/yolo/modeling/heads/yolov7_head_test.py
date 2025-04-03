@@ -15,7 +15,8 @@
 """Tests for yolov7 heads."""
 
 from absl.testing import parameterized
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.projects.yolo.modeling.backbones import yolov7 as backbone
 from official.projects.yolo.modeling.decoders import yolov7 as decoder

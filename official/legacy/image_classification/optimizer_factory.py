@@ -21,7 +21,8 @@ from typing import Any, Dict, Optional, Text, Union
 
 from absl import logging
 import numpy as np
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.legacy.image_classification import learning_rate
 from official.legacy.image_classification.configs import base_configs

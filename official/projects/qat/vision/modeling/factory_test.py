@@ -15,7 +15,8 @@
 """Tests for factory.py."""
 
 from absl.testing import parameterized
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.projects.qat.vision.configs import common
 from official.projects.qat.vision.modeling import factory as qat_factory

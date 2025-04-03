@@ -14,7 +14,8 @@
 
 """Factory methods to build models."""
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.core import registry
 from official.vision.configs import video_classification as video_classification_cfg

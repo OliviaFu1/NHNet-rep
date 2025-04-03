@@ -21,7 +21,8 @@ import os
 from typing import Any, List, MutableMapping, Optional, Text
 
 from absl import logging
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.modeling import optimization
 from official.utils.misc import keras_utils

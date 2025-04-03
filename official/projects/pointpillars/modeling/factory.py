@@ -17,7 +17,8 @@
 from typing import Mapping, Optional
 
 from absl import logging
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.projects.pointpillars.configs import pointpillars as cfg
 from official.projects.pointpillars.modeling import backbones

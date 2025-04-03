@@ -19,7 +19,8 @@ import tempfile
 
 from absl.testing import parameterized
 import numpy as np
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 from tensorflow import estimator as tf_estimator
 import tensorflow_hub as hub
 import tensorflow_text as text

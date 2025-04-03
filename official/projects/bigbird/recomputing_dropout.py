@@ -15,7 +15,8 @@
 """Keras dropout layer that is aware of `RecomputeContext`."""
 
 import numpy as np
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.projects.bigbird import recompute_grad as recompute_grad_lib
 from official.projects.bigbird import stateless_dropout as stateless_dropout_lib

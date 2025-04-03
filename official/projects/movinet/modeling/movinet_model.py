@@ -19,7 +19,8 @@ Reference: https://arxiv.org/pdf/2103.11511.pdf
 from typing import Any, Dict, Mapping, Optional, Sequence, Tuple, Union
 
 from absl import logging
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.projects.movinet.configs import movinet as cfg
 from official.projects.movinet.modeling import movinet_layers

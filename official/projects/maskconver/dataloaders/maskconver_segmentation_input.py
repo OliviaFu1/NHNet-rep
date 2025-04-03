@@ -15,7 +15,8 @@
 """Data parser and processing for maskconver segmentation dataloader."""
 from typing import Optional
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 from tensorflow_addons import image as tfa_image
 
 from official.projects.centernet.ops import target_assigner

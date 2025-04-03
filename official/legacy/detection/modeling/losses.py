@@ -19,7 +19,8 @@ from __future__ import division
 from __future__ import print_function
 
 from absl import logging
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 
 def focal_loss(logits, targets, alpha, gamma, normalizer):

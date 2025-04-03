@@ -14,7 +14,8 @@
 
 """Keras metric for computing the label mean sliced by treatment group."""
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.recommendation.uplift import types
 from official.recommendation.uplift.metrics import treatment_sliced_metric

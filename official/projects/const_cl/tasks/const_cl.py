@@ -16,7 +16,8 @@
 from typing import Any, Optional
 
 from absl import logging
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 from official.core import input_reader
 from official.core import task_factory
 from official.projects.const_cl.configs import const_cl as exp_cfg

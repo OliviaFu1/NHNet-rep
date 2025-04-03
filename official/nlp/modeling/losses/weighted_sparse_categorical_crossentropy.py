@@ -14,7 +14,8 @@
 
 """Weighted sparse categorical cross-entropy losses."""
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 
 def _adjust_labels(labels, predictions):

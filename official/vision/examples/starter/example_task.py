@@ -15,7 +15,8 @@
 """An example task definition for image classification."""
 from typing import Any, List, Optional, Tuple, Sequence, Mapping
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.common import dataset_fn
 from official.core import base_task

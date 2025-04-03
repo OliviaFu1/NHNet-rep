@@ -16,7 +16,8 @@
 
 import functools
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.projects.centernet.ops import box_list
 from official.projects.centernet.ops import box_list_ops

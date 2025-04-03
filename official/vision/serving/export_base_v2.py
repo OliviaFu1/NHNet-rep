@@ -16,7 +16,8 @@
 
 from typing import Dict, Optional, Text, Callable, Any, Union
 
-import tensorflow as tf, tf_keras
+import tensorflow as tf
+import tensorflow.keras as tf_keras
 
 from official.core import export_base
 
